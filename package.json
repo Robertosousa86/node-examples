@@ -1,0 +1,20 @@
+{
+  "name": "node-book",
+  "version": "1.0.0",
+  "description": "- Uma lista de exemplos de funções utilizando Node.Js - Baseado no livro \"Node.Js in Practice\" by Alex young e Marc Harter.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Robertosousa86/node-examples.git"
+  },
+  "keywords": [],
+  "author": "Roberto Sousa <robertosousa186@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Robertosousa86/node-examples/issues"
+  },
+  "homepage": "https://github.com/Robertosousa86/node-examples#readme"
+}
