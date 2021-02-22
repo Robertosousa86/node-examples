@@ -1,5 +1,5 @@
-var Writable = require("stream").Writable;
-var util = require("util");
+const Writable = require("stream").Writable;
+const util = require("util");
 
 module.exports = CountStream;
 // herda de writable stream
@@ -15,7 +15,7 @@ function CountStream(matchText, options) {
 
 CountStream.prototype._write = function (chunck, encoding, cb) {
   // converter o bloco atual de entradas em strings e as utiliza para contar igualdades
-  var matches = chunck.toString().match(this.matcher); 
+  const matches = chunck.toString().match(this.matcher); 
 
   if (matches) {
     this.count += matches.length;

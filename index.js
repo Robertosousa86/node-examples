@@ -1,8 +1,8 @@
 // faz o require do modulo countstream
-var CountStream = require("./countstream");
+const CountStream = require("./countstream");
 // instancia a classe CountStream que conta o texto 'book'
-var countStream = new CountStream("São Paulo");
-var http = require("http");
+const countStream = new CountStream("São Paulo");
+const http = require("http");
 // faz a requisição no site
 http.get("http://www.saopaulofc.net/", function (res) {
   // faz o pipe dos dados do site para coutStream, contando o texto
