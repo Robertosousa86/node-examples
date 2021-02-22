@@ -4,7 +4,7 @@
   "description": "- Uma lista de exemplos de funções utilizando Node.Js - Baseado no livro \"Node.Js in Practice\" by Alex young e Marc Harter.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js"
   },
   "repository": {
     "type": "git",
